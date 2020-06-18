@@ -1,3 +1,53 @@
+@font-face {
+    font-family: 'CorbertWide';
+    src: url('../fonts/CorbertWide-Regular.ttf');
+}
+
 body {
+    box-sizing: border-box;
     background-color: antiquewhite;
+    font-family: 'CorbertWide';
+    margin: 0px 150px 0px 150px;
+}
+
+li {
+    display: inline;
+}
+
+.div-imagem {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul li {
+    padding: 5px 50px 5px 50px;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+h1 {
+    text-shadow: red 2px 2px;
+    text-transform: uppercase;
+}
+
+p {
+    text-justify: auto;
+    font-size: large;
+}
+
+.foto {
+    padding: 20px 40px;
+}
+
+nav, header, section {
+    margin-bottom: 50px;
+}
+
+a, a:visited, a:hover {
+    text-decoration: none;
+    color: black;
 }
