@@ -129,6 +129,21 @@
 
 * CSS (Cascading Style Sheets = Folhas de estilo em cascata)
 * Permite modificar a aparência de uma página HTML
+* Estrutura do CSS
+    ```
+
+    elemento {
+        atributo1: valor1;
+        atributo2: valor2;
+
+        (...)
+
+        atributoN: valorN;
+    }
+
+    ```
+       
+    * Elemento: pode ser uma tag ou seletor de classe/id 
 
 1. Criar pasta 'css' no diretório do projeto e o arquivo de estilos dentro desta pasta
 2. Adicionar a referência através da tag HTML ```<link>``` a sua página
@@ -146,4 +161,27 @@
     </html>
     ```
 
- 3. 
+ 3. Propriedades CSS (essencial)
+
+    * background/background-color: cor de fundo do elemento
+    * color: cor do texto
+    * font-family: tipo da fonte
+    * font-size: tamanho do texto
+    * margin: margens do texto (top, right, bottom, left --> nesta ordem)
+        * margin-top
+        * margin-right
+        * margin-bottom
+        * margin-left        
+    * padding: espaçamento interno do elemento (top, right, bottom, left --> nesta ordem)
+        * padding-top
+        * padding-right
+        * padding-bottom
+        * padding-left     
+    * display: disposição em que os elementos são mostrados
+        * inline
+        * block
+        * inline-block
+        * inline-flex
+        * flex
+        * grid
+        * flexbox
