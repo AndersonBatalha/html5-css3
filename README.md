@@ -117,11 +117,33 @@
 
         ```
  
-     * DIVs: estabelecem divisões de conteúdo dentro de uma seção. Podem ser adicionadas imagens ou textos.
+     * DIVs: estabelecem divisões de conteúdo dentro de uma seção. Podem ser adicionadas imagens, textos ou qualquer outro tipo de conteúdo.
         
         ```
         <div>
             (conteúdo)    
         </div>
         ```
- 
+
+## CSS3
+
+* CSS (Cascading Style Sheets = Folhas de estilo em cascata)
+* Permite modificar a aparência de uma página HTML
+
+1. Criar pasta 'css' no diretório do projeto e o arquivo de estilos dentro desta pasta
+2. Adicionar a referência através da tag HTML ```<link>``` a sua página
+
+    ```
+    <html>
+
+        <head>
+            <link rel='stylesheet' type='text/css' href='css/style.css'>
+        </head>
+
+        <body>
+        </body>
+        
+    </html>
+    ```
+
+ 3. 
