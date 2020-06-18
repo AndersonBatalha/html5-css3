@@ -185,3 +185,10 @@
         * flex
         * grid
         * flexbox
+    * text-decoration: modifica a aparência de um texto
+    * text-shadow: adiciona sombreamento a um elemento
+    * border: adiciona bordas a um elemento
+        * border-top
+        * border-right
+        * border-bottom
+        * border-left     
