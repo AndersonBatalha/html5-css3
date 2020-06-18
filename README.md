@@ -46,6 +46,35 @@
         <h6>Texto</h6>
         ```
 
+    * Listas
+
+        * Lista não ordenada
+        
+            * O atributo type permite mudar o tipo do marcador (círculo, quadrado ...)
+
+        ```
+        <ul type="square">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ul>
+        ```
+
+        * Lista ordenada
+
+        ```
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ol>
+        ```
+
+
     * Barra de navegação com links
 
         ```
